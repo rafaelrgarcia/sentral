@@ -1,0 +1,30 @@
+body{
+    font-size: 13px;
+}
+h4{
+    margin: 20px 0 30px;
+}
+.table-event{
+    font-size: 11px;
+}
+.card-header{
+    font-size: 15px;
+}
+.form-control{
+    font-size: 13px;
+}
+.has-error .select2-selection {
+    border: 1px solid #a94442;
+    border-radius: 4px;
+}
+.alert-hidden{
+    display: none;
+}
+.bt_hidden{
+    display: none;
+}
+.btn-add{
+    width: 28px;
+    height: 28px;
+    line-height: 16px;
+}

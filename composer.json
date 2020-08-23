@@ -1,0 +1,18 @@
+{
+    "name": "sentral/challenge",
+    "type": "standard",
+    "description": "Sentral Developer Challenge Exercise.",
+    "homepage": "https://sentral.rafaelgarcia.dev",
+    "autoload": {
+        "psr-4": {
+            "Sentral\\Challenge\\": "app"
+        },
+        "files": [
+            "app/config/constants.php"
+        ]
+    },
+    "bin": ["bin/sentral-challenge"],
+    "require": {
+        "vlucas/phpdotenv": "^5.1"
+    }
+}

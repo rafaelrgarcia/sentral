@@ -21,7 +21,7 @@ the where statement
 - a proper routing to call APIs avoiding sending controllers/methods via $_REQUEST
 - call index.php/api.php via httaccess or NGINX Directives to facilitate page routing
 - get the attendees from the participants
-- abstract EventController/getDistance to be more generic or/and create a controller specifically for the api
+- abstract EventController->getDistance to be more generic or/and create a controller specifically for the api
 - show maps with distance once they select the 2 way points (now it is doing only after saving)
 - get address from api when inserting a new venue
 - check if venue, category, organiser already exists before insert and maintain inserted resources
@@ -29,9 +29,9 @@ the where statement
 ##Installation
 
 ###Requirements
-- Apache/Nginx 
-- MySQL
-- PHP 7.x
+- Apache or Nginx 
+- MySQL 5.*
+- PHP 7.*
 - composer
 
 ###Steps

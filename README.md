@@ -33,6 +33,7 @@ the where statement
 - MySQL 5.*
 - PHP 7.*
 - composer
+- php open_short_tags=on
 
 ###Steps
 - Download application via git or zip

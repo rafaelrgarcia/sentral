@@ -30,8 +30,8 @@ the where statement
 
 ###Requirements
 - Apache or Nginx 
-- MySQL 5.*
-- PHP 7.*
+- MySQL 5.6+
+- PHP 7.2+
 - composer
 - php open_short_tags=on
 

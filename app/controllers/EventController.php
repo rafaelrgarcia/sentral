@@ -14,7 +14,7 @@ class EventController extends Model
 	 * @return array
 	 */
 	public function getEvents(){
-		$persons = array();
+		$events = array();
 
 		$query = "SELECT 
 						e.event_id,
